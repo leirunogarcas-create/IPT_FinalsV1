@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IPT_prefinals" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/sky_primary</item>
+        <item name="colorPrimaryVariant">@color/sky_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/sky_secondary</item>
+        <item name="colorSecondaryVariant">@color/sky_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/sky_primary_dark</item>
+        <item name="android:windowBackground">@color/sky_bg</item>
+    </style>
+</resources>

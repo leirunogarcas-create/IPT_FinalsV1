@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="4dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/card_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Top Flight Badge & Price Row -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvFlightNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SW-702"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/sky_primary"
+                android:background="#FFE0B2"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp" />
+
+            <TextView
+                android:id="@+id/tvFlightPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$145"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/sky_primary"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <!-- Origin and Destination Route Display -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <!-- Origin -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvOriginCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CGK"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary" />
+
+                <TextView
+                    android:id="@+id/tvOriginName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jakarta"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_muted" />
+            </LinearLayout>
+
+            <!-- Arrow Route Vector -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingHorizontal="12dp">
+
+                <TextView
+                    android:id="@+id/tvFlightDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1h 45m"
+                    android:textSize="11sp"
+                    android:textColor="@color/sky_secondary"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✈ ───►"
+                    android:textSize="14sp"
+                    android:textColor="@color/sky_secondary" />
+            </LinearLayout>
+
+            <!-- Destination -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="end">
+
+                <TextView
+                    android:id="@+id/tvDestinationCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DPS"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary" />
+
+                <TextView
+                    android:id="@+id/tvDestinationName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bali"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_muted" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Times & Book Action -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/tvFlightSchedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departs: 07:30 AM"
+                android:textSize="13sp"
+                android:textColor="@color/text_secondary"
+                android:layout_centerVertical="true" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBookFlight"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/book_now"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:cornerRadius="8dp"
+                android:backgroundTint="@color/sky_primary"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

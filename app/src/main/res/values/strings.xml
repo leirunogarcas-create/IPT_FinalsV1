@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Linkage Airlines</string>
+    <string name="welcome_back">Welcome to Linkages</string>
+    <string name="sign_in_subtitle">Sign in to manage your flight bookings</string>
+    <string name="create_account_subtitle">Create a new Linkage traveler account</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register Account</string>
+    <string name="no_account">Don\'t have an account? Sign Up</string>
+    <string name="has_account">Already have an account? Sign In</string>
+    <string name="tab_flights">Explore Flights</string>
+    <string name="tab_bookings">My Bookings</string>
+    <string name="logout">Sign Out</string>
+    <string name="book_now">Book Flight</string>
+    <string name="edit_ticket">Edit Ticket</string>
+    <string name="cancel_ticket">Cancel Ticket</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky_primary">#E65100</color>
+    <color name="sky_primary_dark">#BF360C</color>
+    <color name="sky_secondary">#F57C00</color>
+    <color name="sky_accent">#FF9100</color>
+    <color name="sky_bg">#FFF8F6</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">#3E2723</color>
+    <color name="text_secondary">#D84315</color>
+    <color name="text_muted">#757575</color>
+    <color name="status_confirmed">#2E7D32</color>
+    <color name="cancel_red">#D32F2F</color>
+    <color name="edit_blue">#E65100</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
